@@ -8,7 +8,7 @@ import net.minecraft.util.registry.Registry;
 
 public class Bones implements ModInitializer {
 
-    public static final Item BONE_PICKAXE = new Item(new Item.Settings().group(ItemGroup.TOOLS));
+    public static final Item BONE_PICKAXE = new Bone_Pickaxe(new Item.Settings().group(ItemGroup.TOOLS));
 
     @Override
     public void onInitialize() {
